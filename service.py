@@ -1,5 +1,5 @@
 from data_layer import Book, Reader
-from repository_layer import Repository
+from repository import Repository
 def check_text(text, field):
     if not isinstance(text, str):
         raise TypeError(f"{field} должно быть строкой")
