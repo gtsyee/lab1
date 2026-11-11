@@ -48,7 +48,7 @@ def main():
                     print("книг пока нет")
                 for b in books:
                     status = "доступна" if b.is_available else "выдана"
-                    print(f"{b.id}. «{b.title}» — {b.author} ({status})")
+                    print(f"{b.id}. «{b.title}» — {b.author}({b.year}г.) ({status})")
             elif choice == "5":
                 book_id = read_id("id книги: ")
                 reader_id = read_id("id читателя: ")
