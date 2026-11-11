@@ -9,4 +9,4 @@ class Reader:
     def __init__(self, name):
         self.id = None
         self.name = name
-        self.borrowed_books = [] #id взятых книг
+        self.borrowed_book_ids = [] #id взятых книг
